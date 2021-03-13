@@ -1,3 +1,87 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open-sans', sans-serif;
+    overflow-x: hidden;
+}
+
+.banner-column {
+    background-color: gray;
+}
+
+.navbar-container {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 3;
+}
+
+.navbar-container .nav-item:hover {
+    border-bottom: 2px solid white;
+    border-radius: 20%;
+}
+
+.about-container {
+    background-color: #CACACA;
+}
+
+.education-container {
+    background-color: #EEEEEE;
+}
+
+.bg-redtype {
+    background-color: #fb857f;
+}
+
+.redtype-color {
+    color: #fb857f;
+}
+
+.circle {
+    background-color: #fb857f;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.project-container {
+    background-color: gray;
+}
+
+.portfolio-container {
+    background-color: #EEEEEE;
+}
+
+.gallery-container {
+    background-color: gray;
+}
+
+.form-container {
+    background-color: #343A40;
+}
+
+.inner-form {
+    background-color: #585f73;
+}
+
+.bg-redtype:hover {
+    color: black !important;
+}
+
+.footer {
+    background-color: gray;
+}
+
+.circle-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    font-size: 40px;
+    text-align: center;
+    color: gray;
+}
+
+.circle-icon:hover {
+    background-color: #343A40;
+    cursor: pointer;
 }
